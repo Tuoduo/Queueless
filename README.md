@@ -1,1 +1,2 @@
 # Queueless
+Queueless is an online queue management system to eliminate physical waiting lines, the system prioritizes agility, scalability, and availability to ensure fast responses and no stoppages during peak times.
