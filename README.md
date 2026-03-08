@@ -1,1 +1,3 @@
 # Queueless
+
+QueueLess aims to integrate technology into any kinf of businesesses like bakery in Izmir and barrbershop in Adana. It allows business owners to manage customer queues and appointments digitally. It includes features like online queue registiration, calendar integration, various payment systems and an inventory management system. The application automatically updates the available stock when an item is sold, queued or purchased.
