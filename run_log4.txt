@@ -1,0 +1,31 @@
+Launching lib\main.dart on Windows in debug mode...
+Building Windows application...                                    13,8s
+√ Built build\windows\x64\runner\Debug\queueless.exe
+Syncing files to device Windows...                                  85ms
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on Windows is available at: http://127.0.0.1:55758/hrMdZC1fdPk=/
+The Flutter DevTools debugger and profiler on Windows is available at: http://127.0.0.1:55758/hrMdZC1fdPk=/devtools/?uri=ws://127.0.0.1:55758/hrMdZC1fdPk=/ws
+AUTH: Service: API Response: {token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImN1c3QxIiwiZW1haWwiOiJjdXN0b21lckB0ZXN0LmNvbSIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc3NjM3MzA0NCwiZXhwIjoxNzc2OTc3ODQ0fQ.j0HEwPpl4AkgjPlHTlhpp5q9_4GLlgX2n4xZarhUH-Y, user: {id: cust1, name: Test Musteri, email: customer@test.com, phone: +905009999001, role: customer}}
+AUTH: Service: Current User set: customer@test.com, Role Enum: UserRole.customer
+AUTH: Service: API Response: {token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU1Y2RhYjk5LTZjMTgtNGQ0OS05YWNjLWI2MzUwYzRlMjUxNSIsImVtYWlsIjoidGVzdEBtYWlsLmNvbSIsInJvbGUiOiJidXNpbmVzc093bmVyIiwiaWF0IjoxNzc2MzczMjk0LCJleHAiOjE3NzY5NzgwOTR9.4ZCM08zAoH9G9LJnM5k9TjwPvIuI4tv5uypx69EhWPA, user: {id: 55cdab99-6c18-4d49-9acc-b6350c4e2515, name: Tuna, email: test@mail.com, phone: 123456789123, role: businessOwner}}
+AUTH: Service: Current User set: test@mail.com, Role Enum: UserRole.businessOwner
+BusinessHomeScreen BUILD: business=null, owner=55cdab99-6c18-4d49-9acc-b6350c4e2515, screens=5, currentIdx=0
+Owner business loaded: Tuna Enterprises
+BusinessHomeScreen BUILD: business=Tuna Enterprises, owner=55cdab99-6c18-4d49-9acc-b6350c4e2515, screens=4, currentIdx=0
+BusinessHomeScreen BUILD: business=Tuna Enterprises, owner=55cdab99-6c18-4d49-9acc-b6350c4e2515, screens=4, currentIdx=2
+BusinessHomeScreen BUILD: business=Tuna Enterprises, owner=55cdab99-6c18-4d49-9acc-b6350c4e2515, screens=4, currentIdx=3
+BusinessHomeScreen BUILD: business=Tuna Enterprises, owner=55cdab99-6c18-4d49-9acc-b6350c4e2515, screens=4, currentIdx=0
+BusinessHomeScreen BUILD: business=Tuna Enterprises, owner=55cdab99-6c18-4d49-9acc-b6350c4e2515, screens=4, currentIdx=1
+BusinessHomeScreen BUILD: business=Tuna Enterprises, owner=55cdab99-6c18-4d49-9acc-b6350c4e2515, screens=4, currentIdx=2
+Logout button tapped
+AUTH: Service: API Response: {token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImN1c3QxIiwiZW1haWwiOiJjdXN0b21lckB0ZXN0LmNvbSIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc3NjM3NDE1NSwiZXhwIjoxNzc2OTc4OTU1fQ.iSh5zRYxzCCtYuTB-Z65bX8cRdyYCUNQ1mU3rBMmHec, user: {id: cust1, name: Test Musteri, email: customer@test.com, phone: +905009999001, role: customer}}
+AUTH: Service: Current User set: customer@test.com, Role Enum: UserRole.customer
+Lost connection to device.
