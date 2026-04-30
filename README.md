@@ -17,5 +17,5 @@ Architecture:
 Technical Details:  
 -> Frontend: Flutter (Web & Mobile)  
 -> Backend: .NET / C# (Web API)  
--> Database: PostgreSQL (SQL)  
+-> Database: MySQL (SQL)  
 -> Patterns: Observer Pattern (C++ core logic included)  
