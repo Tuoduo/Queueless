@@ -1,17 +1,21 @@
-# queueless
+# QueueLess
+Our mission is to provide a cost-effective and agile system that prioritizes customer satisfaction. By integrating technology into daily workflows, 
+we aim to reduce expenses and save time for both owners and customers.  
 
-A new Flutter project.
+Key Features:  
+-> Online Queue Registration: Customers can join a line from their mobile devices without being physically present.  
+-> Real-time Position Tracking: Users can see their exact place in the queue and estimated waiting times.  
+-> Smart Inventory Management: Business owners can track stock levels (e.g., baklava, churros) and set items as "out-of-stock" manually or automatically.  
+-> VIP & Urgent Prioritization: Owners can prioritize specific cases to handle urgent or VIP customers first.  
+-> Secure Authentication: User data is protected through a secure login mechanism.  
 
-## Getting Started
+Architecture:  
+We followed a Layered Architecture to ensure a clear separation between the User Interface, Business Management, and Database layers.  
+-> Event-Driven Approach: The system uses an "Event Bus" to handle asynchronous interactions, such as updating the queue UI the moment a new customer joins .  
+-> Design Pattern: We implemented the Observer Pattern. The QueueManager acts as the Subject that automatically notifies all Customer (Observer) objects when the queue order changes.  
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Technical Details:  
+-> Frontend: Flutter (Web & Mobile)  
+-> Backend: .NET / C# (Web API)  
+-> Database: MySQL (SQL)  
+-> Patterns: Observer Pattern (C++ core logic included)  
