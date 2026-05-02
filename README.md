@@ -10,7 +10,7 @@ Key Features:
 -> Secure Authentication: User data is protected through a secure login mechanism.  
 
 Architecture:  
-We followed a Layered Architecture to ensure a clear separation between the User Interface, Business Management, and Database layers.  
+&nbsp;&nbsp;&nbsp;&nbsp;We followed a Layered Architecture to ensure a clear separation between the User Interface, Business Management, and Database layers.  
 -> Event-Driven Approach: The system uses an "Event Bus" to handle asynchronous interactions, such as updating the queue UI the moment a new customer joins .  
 -> Design Pattern: We implemented the Observer Pattern. The QueueManager acts as the Subject that automatically notifies all Customer (Observer) objects when the queue order changes.  
 
