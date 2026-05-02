@@ -1,15 +1,21 @@
-# Queueless
-Queueless is an online queue management system to eliminate physical waiting lines, 
-the system prioritizes agility, scalability, and availability to ensure fast responses 
-and no stoppages during peak times.
+# QueueLess
+Our mission is to provide a cost-effective and agile system that prioritizes customer satisfaction. By integrating technology into daily workflows, 
+we aim to reduce expenses and save time for both owners and customers.  
 
-QueueLess aims to integrate technology into any kind of businesesses like bakery in Izmir and barbershop in Adana.
-It allows business owners to manage customer queues and appointments digitally. It includes features like online queue registiration, 
-calendar integration, various payment systems and an inventory management system. The application automatically updates the available 
-stock when an item is sold, queued or purchased.
+Key Features:  
+-> Online Queue Registration: Customers can join a line from their mobile devices without being physically present.  
+-> Real-time Position Tracking: Users can see their exact place in the queue and estimated waiting times.  
+-> Smart Inventory Management: Business owners can track stock levels (e.g., baklava, churros) and set items as "out-of-stock" manually or automatically.  
+-> VIP & Urgent Prioritization: Owners can prioritize specific cases to handle urgent or VIP customers first.  
+-> Secure Authentication: User data is protected through a secure login mechanism.  
 
-The QueueLess application optimizes the waiting experience for both customers and business owners.
-Customers can join queues online, track their position, and book specific appointment times.
-Business owners can view current queues, manage their business profiles, and prioritize urgent or VIP cases.
-If a customer is prioritized, others in the queue can transparently see the changes in order.
-All user information is protected through secure login mechanisms.
+Architecture:  
+&nbsp;&nbsp;&nbsp;&nbsp;We followed a Layered Architecture to ensure a clear separation between the User Interface, Business Management, and Database layers.  
+-> Event-Driven Approach: The system uses an "Event Bus" to handle asynchronous interactions, such as updating the queue UI the moment a new customer joins .  
+-> Design Pattern: We implemented the Observer Pattern. The QueueManager acts as the Subject that automatically notifies all Customer (Observer) objects when the queue order changes.  
+
+Technical Details:  
+-> Frontend: Flutter (Web & Mobile)  
+-> Backend: .NET / C# (Web API)  
+-> Database: MySQL (SQL)  
+-> Patterns: Observer Pattern (C++ core logic included)  
