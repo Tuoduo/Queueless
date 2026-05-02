@@ -1,0 +1,41 @@
+name: Queueless CI/CD Pipeline
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  backend-ci:
+    name: Backend CI
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+      - name: Install Backend Dependencies
+        working-directory: ./backend
+        run: npm install
+
+  frontend-ci:
+    name: Frontend CI
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.19.0'
+          channel: 'stable'
+      - name: Install Frontend Dependencies
+        working-directory: ./queueless
+        run: flutter pub get
+      - name: Analyze Code
+        working-directory: ./queueless
+        run: flutter analyze --no-fatal-infos
+      - name: Run Tests
+        working-directory: ./queueless
+        run: flutter test
